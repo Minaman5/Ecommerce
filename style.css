@@ -73,18 +73,12 @@ body {
   color: #f39c12;
 }
 
-/* Electronics Gallery Styles */
-.electronics-gallery {
-  padding: 40px 0;
-  background: #222;
+.nav-icons button {
+    padding: 6px 10px;
+  border: none;
+  background: #f39c12;
   color: #fff;
-  text-align: center;
-}
-
-.gallery-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 30px;
-  justify-items: center;
-  margin-top: 20px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background 0.3s;
 }
